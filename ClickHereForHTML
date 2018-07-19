@@ -1,0 +1,54 @@
+# LearnClassesAndDivs
+Learn how to use classes to style your HTML - also learn how to create divs and use them to split viewport into two columns using float and width
+
+Copy the code below and paste into your own text editor
+
+HTML (index.html)
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+  </head>
+
+  <body>
+     
+    <h1>My Fake NewsPaper</h1>
+    
+    <!--There is a definite problem below.  Each h1 header is the same.  What's a boy or girl to do? (Hint, we are going to use classes!)-->
+    
+    <h1>Article #1:  JP and Sabrina receive counselor of the year award!</h1>
+    <p>JP and Sabrina rock.  Full stop.  I don't know how we could have ever done it without them.  Creative Summer would not be the same.</p>
+    
+    <h1>Article #2: Tucker eats pizza at camp and loves it</h1>
+    <p> Yum factor = one million.  It is actually the greatest thing since bread and cheese became one!  Give me more!  Now.  Right Meow!  </p>
+    
+    <!--Challenge Number 2 - We want our two articles to be side by side.  Help!  (Hint - we are going to use divs, width, and floats -->
+    <!--Challenge Number 3 - What if we want the article on the left to be 40% of the width of viewport? Hmmm....-->
+    
+    
+  </body>
+
+</html>
+
+----------------------------------------------------
+
+CSS (style.css)
+
+/* Styles go here */
+
+h1 {
+  margin: 0;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 300px;
+  font-family: 'Chela One', cursive;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfnO2ibc_OpldCVXAi0dEgSotiCvcgBp0mVNSosd4rs5AU_rvvA");
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+}
